@@ -16,6 +16,8 @@
 		A486257B19C9527200DF8BA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A486257919C9527200DF8BA3 /* LaunchScreen.xib */; };
 		A486258719C9527200DF8BA3 /* Part1HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486258619C9527200DF8BA3 /* Part1HelloWorldTests.swift */; };
 		A49C171C19D115270042742E /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C171B19D115270042742E /* APIController.swift */; };
+		A4B15F5119D4524700EB9F16 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B15F5019D4524700EB9F16 /* DetailsViewController.swift */; };
+		A4DC8CAE19D3CAA800A5F6A6 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC8CAD19D3CAA800A5F6A6 /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		A486258519C9527200DF8BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A486258619C9527200DF8BA3 /* Part1HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part1HelloWorldTests.swift; sourceTree = "<group>"; };
 		A49C171B19D115270042742E /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		A4B15F5019D4524700EB9F16 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A4DC8CAD19D3CAA800A5F6A6 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Album.swift; path = ../Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		A486256A19C9527100DF8BA3 /* Part1HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				A4DC8CAD19D3CAA800A5F6A6 /* Album.swift */,
 				A486256D19C9527100DF8BA3 /* AppDelegate.swift */,
 				A486257219C9527200DF8BA3 /* SearchResultsViewController.swift */,
 				A486257419C9527200DF8BA3 /* Main.storyboard */,
@@ -92,6 +97,7 @@
 				A486256F19C9527100DF8BA3 /* Part1HelloWorld.xcdatamodeld */,
 				A486256B19C9527100DF8BA3 /* Supporting Files */,
 				A49C171B19D115270042742E /* APIController.swift */,
+				A4B15F5019D4524700EB9F16 /* DetailsViewController.swift */,
 			);
 			path = Part1HelloWorld;
 			sourceTree = "<group>";
@@ -226,6 +232,8 @@
 				A486257319C9527200DF8BA3 /* SearchResultsViewController.swift in Sources */,
 				A486257119C9527200DF8BA3 /* Part1HelloWorld.xcdatamodeld in Sources */,
 				A486256E19C9527100DF8BA3 /* AppDelegate.swift in Sources */,
+				A4DC8CAE19D3CAA800A5F6A6 /* Album.swift in Sources */,
+				A4B15F5119D4524700EB9F16 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
